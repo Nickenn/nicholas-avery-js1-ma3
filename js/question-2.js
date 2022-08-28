@@ -33,8 +33,12 @@ async function getGames() {
    gameResults.innerHTML += `<div cless="result"> 
     <p>Name: ${games} </p>
     <p>Rating: ${games} </p>
-    <p>Number of tags: ${games}</p>
+    <p>Number of tags: ${games}}</p>
     </div>`;
+
+    //.name
+    //.rating
+    //.tags.length
 
     } catch (error) {
         console.log("An error has occured", error);
