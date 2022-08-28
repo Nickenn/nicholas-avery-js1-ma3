@@ -36,9 +36,9 @@ async function getGames() {
     <p>Number of tags: ${games}}</p>
     </div>`;
 
-    //.name
-    //.rating
-    //.tags.length
+    //[i].name
+    //[i].rating
+    //[i].tags.length
 
     } catch (error) {
         console.log("An error has occured", error);
